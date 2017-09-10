@@ -21,7 +21,9 @@ s.connect(('www.eni.fr',80))
 
 print ('connexion faite')
 
-# send() --> communication avec le socket
+# send() and recv()--> communication avec le socket en TCP
+# sendto() and recvfrom()--> communication avec le socket en UDP
+# récupération d'une partie 2048 octets)de la page web
 r='GET /index.php HTML/1.1\r\n\r\n'
 s.send(r.encode() )
 data=s.recv(2048)
