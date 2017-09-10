@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: iso-8859-1 -*-
-#utilisation de la bibliothéque socket pour accéder aux différents services web
+#utilisation de la bibliotheque socket pour acceder aux differents services web
 # tel que:  Web, FTP, mails
 #normes communications TCP/UDP (voir RFC)
-# Script établissant une connexion Ã  l'hote sans échanger de data
+# Script etablissant une connexion Ã  l'hote sans echanger de data
 import socket
 
 print ('creation du socket ...')
 
-# Création de l'objet socket
+# Creation de l'objet socket
 # AF_INET --> utilisation de IPv4
 # SOCK_STREAM --> utilisation de TCP ou SOCK_DGRAM --> utilisation de UDP
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
