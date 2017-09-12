@@ -20,6 +20,7 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Script_Py_Rsx_Socket_FTP1.py" />
     <Compile Include="Script_Py_Rsx_Socket_Cnx2.py" />
     <Compile Include="Script_Py_Rsx_Socket1_Cnx.py">
       <SubType>Code</SubType>
