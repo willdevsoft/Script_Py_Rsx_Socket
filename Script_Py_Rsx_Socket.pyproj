@@ -20,6 +20,8 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Script_Py_Rsx_Srv_Client_Trojan.py" />
+    <Compile Include="Script_Py_Rsx_Serveur2.py" />
     <Compile Include="Script_Py_Rsx_Serveur1.py" />
     <Compile Include="Script_Py_Rsx_Socket_FTP1.py" />
     <Compile Include="Script_Py_Rsx_Socket_Cnx2.py" />
